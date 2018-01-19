@@ -29,5 +29,15 @@ public class Dialogos{
         dato=JOptionPane.showInputDialog(mensaje);
         return dato;
     }
-
+    /**
+     * Este metodo recoje un numero entero que se pide por pantalla
+     * 
+     * @param mensaje
+     * @return devuelve el numero recogido
+     */
+    public static int recogerInt(String mensaje){
+        int dato;
+        dato=Integer.parseInt(JOptionPane.showInputDialog(mensaje));
+        return dato;
+    }
 }

@@ -51,4 +51,15 @@ public class Dialogos{
         dato=Float.parseFloat(JOptionPane.showInputDialog(mensaje));
         return dato;
     }
+    /**
+     * El metodo muestra un mensaje por pantalla con tres botones de respuesta
+     * devuelve el numero relacionado con la respuesta
+     * 
+     * @param mensaje
+     * @return un numero de respuesta 0 para SI, 1 para NO y 2 para CANCELAR
+     */
+    public static int confirmar(String mensaje){
+        int respuesta=JOptionPane.showConfirmDialog(null, mensaje);
+        return respuesta;
+    }
 }

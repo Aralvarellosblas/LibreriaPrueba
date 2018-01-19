@@ -40,4 +40,15 @@ public class Dialogos{
         dato=Integer.parseInt(JOptionPane.showInputDialog(mensaje));
         return dato;
     }
+    /**
+     * Este metodo recoje un numero decimal que se pide por pantalla
+     * 
+     * @param mensaje
+     * @return devuelve el numero recogido
+     */
+    public static float recogerFloat(String mensaje){
+        float dato;
+        dato=Float.parseFloat(JOptionPane.showInputDialog(mensaje));
+        return dato;
+    }
 }
